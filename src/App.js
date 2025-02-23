@@ -1,14 +1,16 @@
 
 import './App.css';
+import AddEmployee from "./components/AddEmployee";
+import Navbar from "./components/Navbar";
 
 function App() {
-  return (
-    <div className="bg-gray-800">
-      <div className="h-16 flex items-center">
-        <p>Employee-Management-System</p>
-      </div>
-    </div>
+  return(
+  <>
+   <Navbar />
+  <AddEmployee />;
+  </>
   );
+
 }
 
 export default App;
